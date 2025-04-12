@@ -69,19 +69,63 @@ body {
     height: auto;
   }
   
-  .vertical-nav a {
-    display: block;
-    padding: 1rem 1.5rem;
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    font-size: 1rem;
-    transition: background 0.3s;
+  .vertical-nav {
+    width: 220px;
+    height: 100vh;
+    background-color: #ffeded;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
   }
   
-  .vertical-nav a:hover {
-    background-color:#625750;
-    color: white;
+  .vertical-nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 40px;
+  }
+  
+  .vertical-nav ul li {
+    margin: 15px 0;
+  }
+  
+  .vertical-nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    display: block;
+    font-weight: bold;
+  }
+  
+  /* Responsive for smaller devices */
+  @media screen and (max-width: 768px) {
+    .vertical-nav {
+      width: 100%;
+      height: auto;
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      padding: 10px 0;
+    }
+  
+    .vertical-nav ul {
+      display: flex;
+      flex-direction: row;
+      margin-top: 0;
+    }
+  
+    .vertical-nav ul li {
+      margin: 0 10px;
+    }
+  
+    .vertical-nav .nav-icon {
+      display: none; /* Optional: Hide logo on mobile */
+    }
+  
+    body {
+      padding-top: 60px; /* So content doesn't go behind the navbar */
+    }
   }
   .content {
     padding: 2rem;
@@ -103,6 +147,41 @@ body {
     font-size: 1.05rem;
     line-height: 1.6;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  }
+  .donate{
+    background-color: #fff0f0;
+    padding: 40px;
+    text-align: center;
+    margin: 50px auto;
+    border-radius: 12px;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.08);
+  }
+  
+  .donate h2 {
+    color: #d94f4f;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+  
+  .donate p {
+    font-size: 1.1rem;
+    color: #444;
+    margin-bottom: 25px;
+  }
+  
+  .donate-button {
+    background-color: #d94f4f;
+    color: #fff;
+    padding: 12px 28px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: background 0.3s ease;
+  }
+  
+  .donate-button:hover {
+    background-color: #b83f3f;
   }
   img {
     width: 150px;
