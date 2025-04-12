@@ -1,0 +1,146 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #fffdf5;
+    margin-left:200px;
+    padding: 0;
+    text-align: center;
+    color: #333;
+  }
+  header {
+    background-color:#f4e1d2;
+    padding: 1.5rem;
+    color: #000;
+  }
+  h1 {
+    margin-bottom: 0.2rem;
+  }
+  .vertical-nav {
+    height: 100vh;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:#f4e1d2;
+    padding-top: 2rem;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
+  }
+  /* .nav-icon {
+    text-align: center;
+    padding: 20px 0;
+  } */
+  .about {
+    background-color: #fff8f0;
+    padding: 30px;
+    margin: 40px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about h2 {
+    color: #ff4f5a;
+    margin-bottom: 10px;
+  }
+  
+  .about-preview p {
+    font-size: 1rem;
+    color: #444;
+  }
+  
+  .read-more {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ff4f5a;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  
+  .read-more:hover {
+    background-color: #e03b47;
+  }
+  .nav-icon {
+    text-align: center;
+    padding: 5px 0;
+    width: 40px;
+    height: auto;
+  }
+  
+  .vertical-nav a {
+    display: block;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: background 0.3s;
+  }
+  
+  .vertical-nav a:hover {
+    background-color:#625750;
+    color: white;
+  }
+  .content {
+    padding: 2rem;
+  }
+  .name{
+      font-size: 30px;
+  }
+  .highlight {
+    font-size: 1.2rem;
+    color:   #674d3c;
+    font-weight: bold;
+  }
+  .initiative-message {
+    background-color: #fff7e0;
+    padding: 1rem 1.5rem;
+    margin: 2rem auto 1rem;
+    border-radius: 12px;
+    max-width: 600px;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  }
+  img {
+    width: 150px;
+    border-radius: 15px;
+    margin: 1rem 0;
+  }
+  .follow {
+    margin-top: 2rem;
+  }
+  .follow a {
+    background-color: #ff4f5a;
+    color: white;
+    text-decoration: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    transition: 0.3s ease;
+  }
+  .follow a:hover {
+    background-color: #e84350;
+  }
+  .bank_details{
+      margin-top:2rem;
+  }
+  .bank_details a:hover {
+    background-color: #e84350;
+  }
+  .bank_details a{
+    background-color: #ff4f5a;
+    color: white;
+    text-decoration: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    transition: 0.3s ease;
+  }
+  footer {
+    margin-top: 3rem;
+    font-size: 30px;
+    color: #666;
+  }
