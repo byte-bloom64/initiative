@@ -58,9 +58,8 @@ body {
     width: 40px;
     height: auto;
   }
-  .horizontal-nav {
- position: sticky;
- top:0;
+.horizontal-nav {
+ 
   display: flex;
   width:100%;
   justify-content: center;
@@ -68,7 +67,6 @@ body {
   background-color: #b69780;
   padding: 12px 0;
   flex-wrap: wrap;
-  z-index:1000;
 }
 
 .horizontal-nav a {
